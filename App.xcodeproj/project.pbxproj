@@ -146,6 +146,7 @@
 				TargetAttributes = {
 					B0FED1D31E5F49E700671433 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = N5BY3U9LV9;
 						ProvisioningStyle = Automatic;
 					};
 					B0FED1E71E5F49E800671433 = {
@@ -339,7 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N5BY3U9LV9;
 				INFOPLIST_FILE = App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Amy.Kelly.App;
@@ -352,7 +353,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = N5BY3U9LV9;
 				INFOPLIST_FILE = App/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Amy.Kelly.App;
@@ -408,6 +409,7 @@
 				B0FED1F31E5F49E800671433 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0FED1F41E5F49E800671433 /* Build configuration list for PBXNativeTarget "AppTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +418,7 @@
 				B0FED1F61E5F49E800671433 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
