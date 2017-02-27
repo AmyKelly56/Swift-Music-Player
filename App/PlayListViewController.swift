@@ -1,18 +1,19 @@
 //
-//  ViewController.swift
+//  PlayListViewController.swift
 //  App
 //
-//  Created by Amy Kelly on 23/02/2017.
+//  Created by Amy Kelly on 27/02/2017.
 //  Copyright © 2017 Amy Kelly. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class PlayListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,4 +23,3 @@ class ViewController: UIViewController {
 
 
 }
-
