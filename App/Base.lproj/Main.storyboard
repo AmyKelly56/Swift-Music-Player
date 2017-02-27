@@ -61,7 +61,56 @@
                                         <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TKh-C7-Fzt">
                                             <rect key="frame" x="11" y="116" width="353" height="475"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="sH5-0l-MhZ">
+                                                    <rect key="frame" x="129" y="21" width="95" height="95"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="T34-zZ-aPs">
+                                                    <rect key="frame" x="250" y="21" width="95" height="95"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="3gk-Yw-kZw">
+                                                    <rect key="frame" x="8" y="142" width="95" height="95"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="O0U-ZS-2J7">
+                                                    <rect key="frame" x="129" y="142" width="95" height="95"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="nj4-4z-LRJ">
+                                                    <rect key="frame" x="250" y="142" width="95" height="95"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="o6n-vv-fcR">
+                                                    <rect key="frame" x="250" y="372" width="95" height="95"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="vRV-dF-s5a">
+                                                    <rect key="frame" x="250" y="259" width="95" height="95"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="x9g-vK-YQe">
+                                                    <rect key="frame" x="8" y="259" width="95" height="95"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="uqx-1Y-crk">
+                                                    <rect key="frame" x="129" y="259" width="95" height="95"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="GJD-Zd-Wc5">
+                                                    <rect key="frame" x="129" y="371" width="95" height="95"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="Mia-Pj-XyL">
+                                                    <rect key="frame" x="8" y="371" width="95" height="95"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="hnI-uB-NnQ">
+                                                    <rect key="frame" x="8" y="21" width="95" height="95"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
                                         </view>
                                     </subviews>
                                 </view>
@@ -101,6 +150,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="A Head Full of Dreams" width="1000" height="1000"/>
         <image name="App" width="4288" height="2848"/>
         <image name="Star-empty-icon" width="48" height="48"/>
     </resources>
