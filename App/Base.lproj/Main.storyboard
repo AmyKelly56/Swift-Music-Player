@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bangorund" translatesAutoresizingMaskIntoConstraints="NO" id="4UX-Bw-uLf">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="App" translatesAutoresizingMaskIntoConstraints="NO" id="4UX-Bw-uLf">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -52,12 +52,17 @@
                                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <inset key="contentEdgeInsets" minX="1" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                         <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                                        <state key="normal" title="Button" image="Star-empty-icon"/>
+                                                        <state key="normal" title="My Favourites" image="Star-empty-icon"/>
                                                     </button>
                                                 </subviews>
                                             </view>
                                             <blurEffect style="light"/>
                                         </visualEffectView>
+                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TKh-C7-Fzt">
+                                            <rect key="frame" x="11" y="116" width="353" height="475"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </view>
                                     </subviews>
                                 </view>
                                 <blurEffect style="dark"/>
@@ -96,7 +101,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="App" width="4288" height="2848"/>
         <image name="Star-empty-icon" width="48" height="48"/>
-        <image name="bangorund" width="4288" height="2848"/>
     </resources>
 </document>
