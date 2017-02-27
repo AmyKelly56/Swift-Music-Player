@@ -120,6 +120,20 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Coldplay" id="WdH-Xd-qh7"/>
+                    <connections>
+                        <outlet property="cover1" destination="hnI-uB-NnQ" id="apL-OI-PZf"/>
+                        <outlet property="cover10" destination="Mia-Pj-XyL" id="oJf-ia-BGK"/>
+                        <outlet property="cover11" destination="GJD-Zd-Wc5" id="tIV-2E-UpA"/>
+                        <outlet property="cover12" destination="o6n-vv-fcR" id="kTe-NF-Gah"/>
+                        <outlet property="cover2" destination="sH5-0l-MhZ" id="j0b-aT-k7q"/>
+                        <outlet property="cover3" destination="T34-zZ-aPs" id="oIv-20-A0t"/>
+                        <outlet property="cover4" destination="3gk-Yw-kZw" id="hs5-77-Hj0"/>
+                        <outlet property="cover5" destination="O0U-ZS-2J7" id="xAD-1p-I7V"/>
+                        <outlet property="cover6" destination="nj4-4z-LRJ" id="OUk-Ue-DmC"/>
+                        <outlet property="cover7" destination="x9g-vK-YQe" id="rPI-Sq-gtE"/>
+                        <outlet property="cover8" destination="uqx-1Y-crk" id="4Ew-TW-F4g"/>
+                        <outlet property="cover9" destination="vRV-dF-s5a" id="dY1-y1-IYQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
