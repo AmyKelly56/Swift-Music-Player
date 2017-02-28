@@ -65,34 +65,66 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="sH5-0l-MhZ">
                                                     <rect key="frame" x="45" y="0.0" width="105" height="105"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <gestureRecognizers/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="guT-Zb-Pzt" appends="YES" id="JqN-sN-lti"/>
+                                                    </connections>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="T34-zZ-aPs">
                                                     <rect key="frame" x="226" y="0.0" width="105" height="105"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <gestureRecognizers/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="HLo-CR-wg0" appends="YES" id="2AP-su-ixj"/>
+                                                    </connections>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="3gk-Yw-kZw">
                                                     <rect key="frame" x="45" y="241" width="105" height="105"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <gestureRecognizers/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="K2T-Py-DPa" appends="YES" id="7Ct-J7-uUA"/>
+                                                    </connections>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="O0U-ZS-2J7">
                                                     <rect key="frame" x="226" y="121" width="105" height="105"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <gestureRecognizers/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="hD2-MF-LBW" appends="YES" id="w7j-k4-VkB"/>
+                                                    </connections>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="nj4-4z-LRJ">
                                                     <rect key="frame" x="226" y="241" width="105" height="105"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <gestureRecognizers/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="UpP-cp-JwI" appends="YES" id="AdN-fh-fJv"/>
+                                                    </connections>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="uqx-1Y-crk">
                                                     <rect key="frame" x="226" y="362" width="105" height="105"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <gestureRecognizers/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="VHB-gb-bhe" appends="YES" id="WCC-Pb-HzX"/>
+                                                    </connections>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="hnI-uB-NnQ">
                                                     <rect key="frame" x="45" y="121" width="105" height="105"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <gestureRecognizers/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="AFI-xz-Szj" appends="YES" id="2Ud-pE-lni"/>
+                                                    </connections>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="x9g-vK-YQe">
                                                     <rect key="frame" x="45" y="362" width="105" height="105"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <gestureRecognizers/>
+                                                    <connections>
+                                                        <outletCollection property="gestureRecognizers" destination="IBK-QK-XZw" appends="YES" id="9D0-xa-Aw1"/>
+                                                    </connections>
                                                 </imageView>
                                             </subviews>
                                         </view>
@@ -116,6 +148,14 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="guT-Zb-Pzt"/>
+                <tapGestureRecognizer id="HLo-CR-wg0"/>
+                <tapGestureRecognizer id="AFI-xz-Szj"/>
+                <tapGestureRecognizer id="hD2-MF-LBW"/>
+                <tapGestureRecognizer id="K2T-Py-DPa"/>
+                <tapGestureRecognizer id="UpP-cp-JwI"/>
+                <tapGestureRecognizer id="IBK-QK-XZw"/>
+                <tapGestureRecognizer id="VHB-gb-bhe"/>
             </objects>
             <point key="canvasLocation" x="972" y="38.23088455772114"/>
         </scene>
