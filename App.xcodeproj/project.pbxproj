@@ -13,6 +13,7 @@
 		B0FED1E21E5F49E700671433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FED1E01E5F49E700671433 /* LaunchScreen.storyboard */; };
 		B0FED1ED1E5F49E800671433 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FED1EC1E5F49E800671433 /* AppTests.swift */; };
 		B0FED1FC1E647B4200671433 /* PlayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FED1FB1E647B4200671433 /* PlayListViewController.swift */; };
+		B0FED1FE1E65A48200671433 /* ColdplayLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FED1FD1E65A48200671433 /* ColdplayLibrary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B0FED1EC1E5F49E800671433 /* AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTests.swift; sourceTree = "<group>"; };
 		B0FED1EE1E5F49E800671433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0FED1FB1E647B4200671433 /* PlayListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayListViewController.swift; sourceTree = "<group>"; };
+		B0FED1FD1E65A48200671433 /* ColdplayLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColdplayLibrary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				B0FED1D71E5F49E700671433 /* AppDelegate.swift */,
-				B0FED1FB1E647B4200671433 /* PlayListViewController.swift */,
+				B0FED1FF1E65A4CE00671433 /* Controller */,
+				B0FED2001E65A4EB00671433 /* Model */,
 				B0FED1DB1E5F49E700671433 /* Main.storyboard */,
 				B0FED1DE1E5F49E700671433 /* Assets.xcassets */,
 				B0FED1E01E5F49E700671433 /* LaunchScreen.storyboard */,
@@ -94,6 +97,22 @@
 				B0FED1EE1E5F49E800671433 /* Info.plist */,
 			);
 			path = AppTests;
+			sourceTree = "<group>";
+		};
+		B0FED1FF1E65A4CE00671433 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B0FED1FB1E647B4200671433 /* PlayListViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		B0FED2001E65A4EB00671433 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0FED1FD1E65A48200671433 /* ColdplayLibrary.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0FED1FE1E65A48200671433 /* ColdplayLibrary.swift in Sources */,
 				B0FED1FC1E647B4200671433 /* PlayListViewController.swift in Sources */,
 				B0FED1D81E5F49E700671433 /* AppDelegate.swift in Sources */,
 			);
