@@ -38,11 +38,17 @@ class PlayListViewController: UIViewController {
     
     func updateUI()
     {
-        for coverImage in covers {
-            //Testing: change cover image
-            coverImage.image = UIImage(named: "Ghost Stories")
-        }
+        let albums = ColdplayLibrary().albums
         
+        for i in 0..<covers.count {
+            let cover = covers[i]
+            
+            let album = albums[i]
+            
+            if let imageName = album["coverImageName"] as? String {
+            cover.image = UIImage(named: imageName)
+            }
+        }
     }
     
     

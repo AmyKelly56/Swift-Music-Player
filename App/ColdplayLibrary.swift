@@ -39,7 +39,7 @@ struct ColdplayLibrary {
             "songs" : ["Mylo Xyloto", "Hurts Like Heaven", "Paradise", "Charlie Brown", "Us Against The World", "M.M.I.X", "Every Teardrop is a Waterfall", "Major Minus", "UFO", "Princess of China", "Up in Flames", "A Hopeful Transmission", "Don't Let it Break Your Heart", "Up with the Birds"]
         ],
         [
-            "title" : "Viva la Vida or Death and All His Friends",
+            "title" : "Viva La Vida",
             "description" : "Viva la Vida or Death and All His Friends, often referred to as simply Viva la Vida, is the fourth studio album by the British alternative rock band Coldplay, released on 12 June 2008 on Parlophone.",
             "coverImageName" : "Viva la Vida or Death and All His Friends",
             "songs" : ["Viva La Vida", "Life in Technicolor", "Cemiteries in London", "Lost!", "42", "Lovers in Japan", "Yes", "Violet Hill", "Strawberry Swing", "Death and All His Friends"]
