@@ -10,7 +10,7 @@ import Foundation
 
 struct ColdplayLibrary {
     
-    let album : [String : AnyObject] = [
+    let album : [String : Any] = [
         "title" : "Ghost Stories",
         "description" : "Ghost Stories is the sixth studio album by the British rock band Coldplay. Co-produced by the band with Paul Epworth along with returning Mylo Xyloto producers Daniel Green and Rik Simpson, it was released by Parlophone on 16 May 2014.",
         "coverImageName" : "Ghost Stories",
@@ -19,7 +19,7 @@ struct ColdplayLibrary {
     ]
     
     
-    let albums : [[String : AnyObject]] = [
+    let albums : [[String : Any]] = [
         [
             "title" : "Ghost Stories",
             "description" : "Ghost Stories is the sixth studio album by the British rock band Coldplay. Co-produced by the band with Paul Epworth along with returning Mylo Xyloto producers Daniel Green and Rik Simpson, it was released by Parlophone on 16 May 2014.",
