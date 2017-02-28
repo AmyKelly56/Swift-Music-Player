@@ -10,6 +10,9 @@ import UIKit
 
 class PlayListViewController: UIViewController {
     
+    
+    //MARK : Properities
+    
     @IBOutlet weak var cover1: UIImageView!
     @IBOutlet weak var cover2: UIImageView!
     @IBOutlet weak var cover3: UIImageView!
@@ -40,10 +43,17 @@ class PlayListViewController: UIViewController {
             let cover = covers[i]
             
             let album = Album(index : i)
-            
             cover.image = UIImage(named: album.coverImageName!)
         }
     }
+    
+    
+    //MARK : Target / Action
+    @IBAction func showAlbum(_ sender: UITapGestureRecognizer)
+    {
+        
+    }
+    
     
     
     override func didReceiveMemoryWarning() {

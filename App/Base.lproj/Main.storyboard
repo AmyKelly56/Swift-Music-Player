@@ -148,14 +148,46 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="guT-Zb-Pzt"/>
-                <tapGestureRecognizer id="HLo-CR-wg0"/>
-                <tapGestureRecognizer id="AFI-xz-Szj"/>
-                <tapGestureRecognizer id="hD2-MF-LBW"/>
-                <tapGestureRecognizer id="K2T-Py-DPa"/>
-                <tapGestureRecognizer id="UpP-cp-JwI"/>
-                <tapGestureRecognizer id="IBK-QK-XZw"/>
-                <tapGestureRecognizer id="VHB-gb-bhe"/>
+                <tapGestureRecognizer id="guT-Zb-Pzt">
+                    <connections>
+                        <action selector="showAlbum:" destination="BYZ-38-t0r" id="LbP-iN-mec"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="HLo-CR-wg0">
+                    <connections>
+                        <action selector="showAlbum:" destination="BYZ-38-t0r" id="ki0-Qj-3pK"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="AFI-xz-Szj">
+                    <connections>
+                        <action selector="showAlbum:" destination="BYZ-38-t0r" id="udm-fd-TCb"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="hD2-MF-LBW">
+                    <connections>
+                        <action selector="showAlbum:" destination="BYZ-38-t0r" id="xNc-kI-aku"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="K2T-Py-DPa">
+                    <connections>
+                        <action selector="showAlbum:" destination="BYZ-38-t0r" id="ch8-H8-FsF"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="UpP-cp-JwI">
+                    <connections>
+                        <action selector="showAlbum:" destination="BYZ-38-t0r" id="cHY-F5-1GJ"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="IBK-QK-XZw">
+                    <connections>
+                        <action selector="showAlbum:" destination="BYZ-38-t0r" id="ZcL-IW-IdZ"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="VHB-gb-bhe">
+                    <connections>
+                        <action selector="showAlbum:" destination="BYZ-38-t0r" id="DBJ-at-zvL"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="972" y="38.23088455772114"/>
         </scene>
