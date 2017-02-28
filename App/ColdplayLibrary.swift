@@ -41,7 +41,7 @@ struct ColdplayLibrary {
         [
             "title" : "Viva La Vida",
             "description" : "Viva la Vida or Death and All His Friends, often referred to as simply Viva la Vida, is the fourth studio album by the British alternative rock band Coldplay, released on 12 June 2008 on Parlophone.",
-            "coverImageName" : "Viva la Vida or Death and All His Friends",
+            "coverImageName" : "Viva La Vida",
             "songs" : ["Viva La Vida", "Life in Technicolor", "Cemiteries in London", "Lost!", "42", "Lovers in Japan", "Yes", "Violet Hill", "Strawberry Swing", "Death and All His Friends"]
         ],
         [

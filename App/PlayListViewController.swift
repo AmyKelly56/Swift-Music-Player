@@ -18,10 +18,7 @@ class PlayListViewController: UIViewController {
     @IBOutlet weak var cover6: UIImageView!
     @IBOutlet weak var cover7: UIImageView!
     @IBOutlet weak var cover8: UIImageView!
-    @IBOutlet weak var cover9: UIImageView!
-    @IBOutlet weak var cover10: UIImageView!
-    @IBOutlet weak var cover11: UIImageView!
-    @IBOutlet weak var cover12: UIImageView!
+  
     
     var covers: [UIImageView]!
     
@@ -30,7 +27,7 @@ class PlayListViewController: UIViewController {
         super.viewDidLoad()
     
         
-         covers = [cover1, cover2, cover3, cover4, cover5, cover6, cover7, cover8, cover9, cover10, cover11, cover12];
+         covers = [cover1, cover2, cover3, cover4, cover5, cover6, cover7, cover8];
         
         updateUI()
         
@@ -38,26 +35,21 @@ class PlayListViewController: UIViewController {
     
     func updateUI()
     {
-        let albums = ColdplayLibrary().albums
         
         for i in 0..<covers.count {
-            var cover = covers[i]
+            let cover = covers[i]
             
-            let album = albums[i]
+            let album = Album(index : i)
             
-            if let imageName = album["coverImageName"] as? String {
-            cover.image = UIImage(named: imageName)
-            }
+            cover.image = UIImage(named: album.coverImageName!)
         }
     }
     
     
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    
-        
+
     
     }
 

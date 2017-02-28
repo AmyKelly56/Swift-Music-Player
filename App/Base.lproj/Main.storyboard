@@ -63,51 +63,35 @@
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="sH5-0l-MhZ">
-                                                    <rect key="frame" x="129" y="21" width="95" height="95"/>
+                                                    <rect key="frame" x="45" y="0.0" width="105" height="105"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="T34-zZ-aPs">
-                                                    <rect key="frame" x="250" y="21" width="95" height="95"/>
+                                                    <rect key="frame" x="226" y="0.0" width="105" height="105"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="3gk-Yw-kZw">
-                                                    <rect key="frame" x="8" y="142" width="95" height="95"/>
+                                                    <rect key="frame" x="45" y="241" width="105" height="105"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="O0U-ZS-2J7">
-                                                    <rect key="frame" x="129" y="142" width="95" height="95"/>
+                                                    <rect key="frame" x="226" y="121" width="105" height="105"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="nj4-4z-LRJ">
-                                                    <rect key="frame" x="250" y="142" width="95" height="95"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="o6n-vv-fcR">
-                                                    <rect key="frame" x="250" y="372" width="95" height="95"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="vRV-dF-s5a">
-                                                    <rect key="frame" x="250" y="259" width="95" height="95"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="x9g-vK-YQe">
-                                                    <rect key="frame" x="8" y="259" width="95" height="95"/>
+                                                    <rect key="frame" x="226" y="241" width="105" height="105"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="uqx-1Y-crk">
-                                                    <rect key="frame" x="129" y="259" width="95" height="95"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="GJD-Zd-Wc5">
-                                                    <rect key="frame" x="129" y="371" width="95" height="95"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="Mia-Pj-XyL">
-                                                    <rect key="frame" x="8" y="371" width="95" height="95"/>
+                                                    <rect key="frame" x="226" y="362" width="105" height="105"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="hnI-uB-NnQ">
-                                                    <rect key="frame" x="8" y="21" width="95" height="95"/>
+                                                    <rect key="frame" x="45" y="121" width="105" height="105"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="x9g-vK-YQe">
+                                                    <rect key="frame" x="45" y="362" width="105" height="105"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
@@ -121,18 +105,14 @@
                     </view>
                     <navigationItem key="navigationItem" title="Coldplay" id="WdH-Xd-qh7"/>
                     <connections>
-                        <outlet property="cover1" destination="hnI-uB-NnQ" id="apL-OI-PZf"/>
-                        <outlet property="cover10" destination="Mia-Pj-XyL" id="oJf-ia-BGK"/>
-                        <outlet property="cover11" destination="GJD-Zd-Wc5" id="tIV-2E-UpA"/>
-                        <outlet property="cover12" destination="o6n-vv-fcR" id="kTe-NF-Gah"/>
-                        <outlet property="cover2" destination="sH5-0l-MhZ" id="j0b-aT-k7q"/>
-                        <outlet property="cover3" destination="T34-zZ-aPs" id="oIv-20-A0t"/>
-                        <outlet property="cover4" destination="3gk-Yw-kZw" id="hs5-77-Hj0"/>
-                        <outlet property="cover5" destination="O0U-ZS-2J7" id="xAD-1p-I7V"/>
-                        <outlet property="cover6" destination="nj4-4z-LRJ" id="OUk-Ue-DmC"/>
-                        <outlet property="cover7" destination="x9g-vK-YQe" id="rPI-Sq-gtE"/>
-                        <outlet property="cover8" destination="uqx-1Y-crk" id="4Ew-TW-F4g"/>
-                        <outlet property="cover9" destination="vRV-dF-s5a" id="dY1-y1-IYQ"/>
+                        <outlet property="cover1" destination="sH5-0l-MhZ" id="VaA-Is-VTQ"/>
+                        <outlet property="cover2" destination="T34-zZ-aPs" id="Cns-5e-umY"/>
+                        <outlet property="cover3" destination="hnI-uB-NnQ" id="pA2-4v-WQo"/>
+                        <outlet property="cover4" destination="O0U-ZS-2J7" id="RpR-mI-ICv"/>
+                        <outlet property="cover5" destination="3gk-Yw-kZw" id="3ss-1j-95c"/>
+                        <outlet property="cover6" destination="nj4-4z-LRJ" id="Nla-Ft-WWN"/>
+                        <outlet property="cover7" destination="x9g-vK-YQe" id="3OT-zQ-xuw"/>
+                        <outlet property="cover8" destination="uqx-1Y-crk" id="3CO-Jy-3Ff"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -144,7 +124,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XBp-u7-CJp" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="SPj-vQ-FrL">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SPj-vQ-FrL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>

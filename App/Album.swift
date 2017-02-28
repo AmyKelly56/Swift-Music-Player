@@ -18,23 +18,21 @@ public struct AlbumKeys
 
 class Album
 {
-    var title: String
-    var description: String
-    var coverImageName: String
-    var songs: [String]
+    var title: String?
+    var description: String?
+    var coverImageName: String?
+    var songs: [String]?
     
     init(index: Int)
     {
         if index >= 0 && index < ColdplayLibrary().albums.count {
             let album = ColdplayLibrary().albums[index]
             
-            title = (album[AlbumKeys.title] as! String?)!
-            description = (album[AlbumKeys.description] as! String?)!
-            coverImageName = (album[AlbumKeys.coverImageName] as! String?)!
-            songs = (album[AlbumKeys.songs] as! String?)!
+            title = album[AlbumKeys.title] as? String
+            description = album[AlbumKeys.description] as? String
+            coverImageName = album[AlbumKeys.coverImageName] as? String
+            songs = album[AlbumKeys.songs] as? [String]
             
         }
-        
     }
-    
 }
