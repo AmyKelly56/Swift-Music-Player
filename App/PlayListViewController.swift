@@ -41,7 +41,7 @@ class PlayListViewController: UIViewController {
         let albums = ColdplayLibrary().albums
         
         for i in 0..<covers.count {
-            let cover = covers[i]
+            var cover = covers[i]
             
             let album = albums[i]
             
