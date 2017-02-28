@@ -51,6 +51,7 @@ class PlayListViewController: UIViewController {
     //MARK : Target / Action
     @IBAction func showAlbum(_ sender: UITapGestureRecognizer)
     {
+       
         
     }
     
