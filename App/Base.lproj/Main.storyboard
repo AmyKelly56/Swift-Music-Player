@@ -52,7 +52,7 @@
                                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                         <inset key="contentEdgeInsets" minX="1" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                         <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                                        <state key="normal" title="My Favourites" image="Star-empty-icon"/>
+                                                        <state key="normal" title="Favourites" image="Star-empty-icon"/>
                                                     </button>
                                                 </subviews>
                                             </view>
@@ -145,7 +145,7 @@
                         <outlet property="cover6" destination="nj4-4z-LRJ" id="Nla-Ft-WWN"/>
                         <outlet property="cover7" destination="x9g-vK-YQe" id="3OT-zQ-xuw"/>
                         <outlet property="cover8" destination="uqx-1Y-crk" id="3CO-Jy-3Ff"/>
-                        <segue destination="fIv-Fp-aUi" kind="show" id="jMJ-KJ-Cnl"/>
+                        <segue destination="fIv-Fp-aUi" kind="show" identifier="Show Album" id="jMJ-KJ-Cnl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
