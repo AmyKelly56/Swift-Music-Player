@@ -192,10 +192,10 @@
             </objects>
             <point key="canvasLocation" x="972" y="38.23088455772114"/>
         </scene>
-        <!--View Controller-->
+        <!--Album View Controller-->
         <scene sceneID="6iK-fs-arj">
             <objects>
-                <viewController id="fIv-Fp-aUi" sceneMemberID="viewController">
+                <viewController id="fIv-Fp-aUi" customClass="AlbumViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5Qt-C7-Bpl"/>
                         <viewControllerLayoutGuide type="bottom" id="1oa-H6-mhG"/>
@@ -234,6 +234,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="albumCoverImageView" destination="zXs-Um-F9p" id="UhT-iF-jhu"/>
+                        <outlet property="descriptionTextView" destination="NbN-yY-edY" id="a20-fP-Ugh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jeM-TX-3DD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
