@@ -31,10 +31,7 @@ class AlbumViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("Album View Loaded")
-        print(backgroundImageView)
-        print(albumCoverImageView)
-        print(descriptionTextView)
+       
     }
 
 }

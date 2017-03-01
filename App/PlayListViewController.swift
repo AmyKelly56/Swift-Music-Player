@@ -64,9 +64,7 @@ class PlayListViewController: UIViewController {
                 case "Show Album":
                 
                     let albumViewController = segue.destination as! AlbumViewController
-                    print(albumViewController.backgroundImageView)
-                    print(albumViewController.albumCoverImageView)
-                    print(albumViewController.descriptionTextView)
+                    
                 
                 default:
                     break
