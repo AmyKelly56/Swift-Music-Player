@@ -14,6 +14,7 @@
 		B0FED1FE1E65A48200671433 /* ColdplayLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FED1FD1E65A48200671433 /* ColdplayLibrary.swift */; };
 		B0FED2021E65BC7A00671433 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FED2011E65BC7A00671433 /* Album.swift */; };
 		B0FED2041E65C95300671433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0FED2031E65C95300671433 /* Assets.xcassets */; };
+		B0FED2061E671A2B00671433 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FED2051E671A2B00671433 /* AlbumViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		B0FED1FD1E65A48200671433 /* ColdplayLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColdplayLibrary.swift; sourceTree = "<group>"; };
 		B0FED2011E65BC7A00671433 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
 		B0FED2031E65C95300671433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = App/Assets.xcassets; sourceTree = "<group>"; };
+		B0FED2051E671A2B00671433 /* AlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		B0FED1FF1E65A4CE00671433 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				B0FED2051E671A2B00671433 /* AlbumViewController.swift */,
 				B0FED1FB1E647B4200671433 /* PlayListViewController.swift */,
 			);
 			name = Controller;
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0FED1FE1E65A48200671433 /* ColdplayLibrary.swift in Sources */,
+				B0FED2061E671A2B00671433 /* AlbumViewController.swift in Sources */,
 				B0FED1FC1E647B4200671433 /* PlayListViewController.swift in Sources */,
 				B0FED1D81E5F49E700671433 /* AppDelegate.swift in Sources */,
 				B0FED2021E65BC7A00671433 /* Album.swift in Sources */,
