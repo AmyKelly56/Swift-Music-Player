@@ -9,7 +9,10 @@
 import UIKit
 
 class AlbumViewController: UIViewController {
+    
+    var album: Album?
 
+    @IBOutlet weak var backgroundImageView: UIImageView!
     @IBOutlet weak var albumCoverImageView: UIImageView!
     @IBOutlet weak var descriptionTextView: UITextView!
     

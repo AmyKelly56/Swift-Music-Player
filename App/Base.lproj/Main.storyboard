@@ -236,6 +236,7 @@
                     </view>
                     <connections>
                         <outlet property="albumCoverImageView" destination="zXs-Um-F9p" id="UhT-iF-jhu"/>
+                        <outlet property="backgroundImageView" destination="2oL-qo-6BM" id="Djb-7g-cvz"/>
                         <outlet property="descriptionTextView" destination="NbN-yY-edY" id="a20-fP-Ugh"/>
                     </connections>
                 </viewController>
