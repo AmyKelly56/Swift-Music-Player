@@ -49,8 +49,7 @@ class PlayListViewController: UIViewController {
     
     
     //MARK : Target / Action
-    @IBAction func showAlbum(_ sender: UITapGestureRecognizer)
-    {
+    @IBAction func showAlbum(_ sender: UITapGestureRecognizer) {
         performSegue(withIdentifier: "Show Album", sender: sender)
 
     }
@@ -64,7 +63,12 @@ class PlayListViewController: UIViewController {
                 case "Show Album":
                 
                     let albumViewController = segue.destination as! AlbumViewController
-                    
+                    let albumImageView = sender?.view as! UIImage
+                    if let index = find(covers, albumImageView) {
+                        let album = Album(index: index)
+                        albumViewController.album = album
+                    }
+                
                 
                 default:
                     break
