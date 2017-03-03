@@ -19,7 +19,7 @@ class AlbumViewController: UIViewController {
     
     func updateUI()
     {
-        let albumName = "\(album?.coverImageName)"
+        let albumName = "\((album?.coverImageName)!)"
         backgroundImageView.image = UIImage(named: albumName)
         albumCoverImageView.image = UIImage(named: albumName)
         
@@ -31,7 +31,5 @@ class AlbumViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-       
     }
-
 }
