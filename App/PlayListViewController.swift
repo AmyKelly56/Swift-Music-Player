@@ -63,8 +63,8 @@ class PlayListViewController: UIViewController {
                 case "Show Album":
                 
                     let albumViewController = segue.destination as! AlbumViewController
-                    let albumImageView = (sender as AnyObject).view as UIImage
-                    if let index = find(covers, albumImageView) {
+                    let albumImageView = sender?.view as UIImage
+                    if let index = indexOf(covers, albumImageView) {
                         let album = Album(index: index)
                         albumViewController.album = album
                     }
