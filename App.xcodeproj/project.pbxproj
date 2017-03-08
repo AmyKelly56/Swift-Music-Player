@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B05A83A21E7034CE00AF46A0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B05A83A11E7034CE00AF46A0 /* Launch Screen.storyboard */; };
 		B05A83A41E7036A500AF46A0 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B05A83A31E7036A500AF46A0 /* Menu.storyboard */; };
 		B05A83A61E7038CE00AF46A0 /* Radio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B05A83A51E7038CE00AF46A0 /* Radio.storyboard */; };
 		B05A83A81E7038E000AF46A0 /* RadioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A83A71E7038E000AF46A0 /* RadioViewController.swift */; };
@@ -34,7 +33,6 @@
 
 /* Begin PBXFileReference section */
 		B05A83981E702AD400AF46A0 /* App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-Bridging-Header.h"; sourceTree = "<group>"; };
-		B05A83A11E7034CE00AF46A0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		B05A83A31E7036A500AF46A0 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
 		B05A83A51E7038CE00AF46A0 /* Radio.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Radio.storyboard; sourceTree = "<group>"; };
 		B05A83A71E7038E000AF46A0 /* RadioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioViewController.swift; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 				B0FED1DB1E5F49E700671433 /* Main.storyboard */,
 				B05A83A31E7036A500AF46A0 /* Menu.storyboard */,
 				B05A83A51E7038CE00AF46A0 /* Radio.storyboard */,
-				B05A83A11E7034CE00AF46A0 /* Launch Screen.storyboard */,
 				B0FED1E31E5F49E800671433 /* Info.plist */,
 			);
 			path = App;
@@ -220,7 +217,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B05A83A21E7034CE00AF46A0 /* Launch Screen.storyboard in Resources */,
 				B05A83A61E7038CE00AF46A0 /* Radio.storyboard in Resources */,
 				B0FED2041E65C95300671433 /* Assets.xcassets in Resources */,
 				B0FED1DD1E5F49E700671433 /* Main.storyboard in Resources */,
