@@ -30,7 +30,7 @@ struct ColdplayLibrary {
             "title" : "A Head Full of Dreams",
             "description" : "A Head Full of Dreams is the seventh studio album by the British rock band Coldplay. It was released on 4 December 2015 by Parlophone and Atlantic, with a 5.1 Surround Blu-ray Audio version being released via the band's website on 23 September 2016.",
             "coverImageName" : "A Head Full of Dreams",
-            "song" : ["A Head Full of Dreams", "Birds", "Everglow", "Hymn for the Weekend", "Adventure of a Lifetime", "Fun', Army of One", "Kaleidoscope", "Amazing Day", "Color Spectrum", "Up&Up"]
+            "songs" : ["A Head Full of Dreams", "Birds", "Everglow", "Hymn for the Weekend", "Adventure of a Lifetime", "Fun', Army of One", "Kaleidoscope", "Amazing Day", "Color Spectrum", "Up&Up"]
         ],
         [
             "title" : "Mylo Xyloto",

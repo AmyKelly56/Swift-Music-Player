@@ -62,7 +62,7 @@
                                             <rect key="frame" x="11" y="116" width="353" height="475"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="sH5-0l-MhZ">
+                                                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A Head Full of Dreams" translatesAutoresizingMaskIntoConstraints="NO" id="sH5-0l-MhZ">
                                                     <rect key="frame" x="45" y="0.0" width="105" height="105"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <gestureRecognizers/>
