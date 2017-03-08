@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B05A839E1E70326900AF46A0 /* MenuViewCotroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A839D1E70326900AF46A0 /* MenuViewCotroller.swift */; };
+		B05A83A21E7034CE00AF46A0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B05A83A11E7034CE00AF46A0 /* Launch Screen.storyboard */; };
 		B0FED1D81E5F49E700671433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FED1D71E5F49E700671433 /* AppDelegate.swift */; };
 		B0FED1DD1E5F49E700671433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FED1DB1E5F49E700671433 /* Main.storyboard */; };
 		B0FED1ED1E5F49E800671433 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FED1EC1E5F49E800671433 /* AppTests.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		B05A83981E702AD400AF46A0 /* App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-Bridging-Header.h"; sourceTree = "<group>"; };
 		B05A839D1E70326900AF46A0 /* MenuViewCotroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewCotroller.swift; path = ../MenuViewCotroller.swift; sourceTree = "<group>"; };
+		B05A83A11E7034CE00AF46A0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		B0FED1D41E5F49E700671433 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FED1D71E5F49E700671433 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0FED1DC1E5F49E700671433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				B0FED1FF1E65A4CE00671433 /* Controller */,
 				B0FED2001E65A4EB00671433 /* Model */,
 				B0FED1DB1E5F49E700671433 /* Main.storyboard */,
+				B05A83A11E7034CE00AF46A0 /* Launch Screen.storyboard */,
 				B0FED1E31E5F49E800671433 /* Info.plist */,
 			);
 			path = App;
@@ -208,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B05A83A21E7034CE00AF46A0 /* Launch Screen.storyboard in Resources */,
 				B0FED2041E65C95300671433 /* Assets.xcassets in Resources */,
 				B0FED1DD1E5F49E700671433 /* Main.storyboard in Resources */,
 			);
