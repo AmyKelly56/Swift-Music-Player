@@ -16,6 +16,7 @@
 		B05A83D01E70609500AF46A0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05A83CF1E70609500AF46A0 /* AVFoundation.framework */; };
 		B05A83D21E70609D00AF46A0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05A83D11E70609D00AF46A0 /* SystemConfiguration.framework */; };
 		B05A83D61E70655700AF46A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B05A83D51E70655700AF46A0 /* AppDelegate.m */; };
+		B05A83D81E7067B600AF46A0 /* spotify_token_swap.rb in Resources */ = {isa = PBXBuildFile; fileRef = B05A83D71E7067B600AF46A0 /* spotify_token_swap.rb */; };
 		B0FED1D81E5F49E700671433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FED1D71E5F49E700671433 /* AppDelegate.swift */; };
 		B0FED1DD1E5F49E700671433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FED1DB1E5F49E700671433 /* Main.storyboard */; };
 		B0FED1ED1E5F49E800671433 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FED1EC1E5F49E800671433 /* AppTests.swift */; };
@@ -48,6 +49,7 @@
 		B05A83D11E70609D00AF46A0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B05A83D41E70642B00AF46A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		B05A83D51E70655700AF46A0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		B05A83D71E7067B600AF46A0 /* spotify_token_swap.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = spotify_token_swap.rb; sourceTree = "<group>"; };
 		B0FED1D41E5F49E700671433 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FED1D71E5F49E700671433 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0FED1DC1E5F49E700671433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		B0FED1CB1E5F49E700671433 = {
 			isa = PBXGroup;
 			children = (
+				B05A83D71E7067B600AF46A0 /* spotify_token_swap.rb */,
 				B05A83CA1E705D4800AF46A0 /* Frameworks */,
 				B0FED1D61E5F49E700671433 /* App */,
 				B0FED2031E65C95300671433 /* Assets.xcassets */,
@@ -250,6 +253,7 @@
 				B0FED2041E65C95300671433 /* Assets.xcassets in Resources */,
 				B0FED1DD1E5F49E700671433 /* Main.storyboard in Resources */,
 				B05A83A41E7036A500AF46A0 /* Menu.storyboard in Resources */,
+				B05A83D81E7067B600AF46A0 /* spotify_token_swap.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
