@@ -190,7 +190,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="972" y="38.23088455772114"/>
+            <point key="canvasLocation" x="1089" y="-214"/>
         </scene>
         <!--Album View Controller-->
         <scene sceneID="6iK-fs-arj">
@@ -242,12 +242,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jeM-TX-3DD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1949.5999999999999" y="37.331334332833585"/>
+            <point key="canvasLocation" x="1956" y="-215"/>
         </scene>
         <!--Music-->
         <scene sceneID="ZY4-n5-bLQ">
             <objects>
-                <navigationController title="Music" automaticallyAdjustsScrollViewInsets="NO" id="XBp-u7-CJp" sceneMemberID="viewController">
+                <navigationController title="Music" automaticallyAdjustsScrollViewInsets="NO" id="XBp-u7-CJp" colorLabel="IBBuiltInLabel-Red" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="SPj-vQ-FrL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>

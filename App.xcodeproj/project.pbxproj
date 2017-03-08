@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B05A839A1E702AD500AF46A0 /* RadioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B05A83991E702AD500AF46A0 /* RadioViewController.m */; };
+		B05A839E1E70326900AF46A0 /* MenuViewCotroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A839D1E70326900AF46A0 /* MenuViewCotroller.swift */; };
 		B0FED1D81E5F49E700671433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FED1D71E5F49E700671433 /* AppDelegate.swift */; };
 		B0FED1DD1E5F49E700671433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FED1DB1E5F49E700671433 /* Main.storyboard */; };
 		B0FED1ED1E5F49E800671433 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FED1EC1E5F49E800671433 /* AppTests.swift */; };
@@ -29,9 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B05A83971E7029C900AF46A0 /* RadioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RadioViewController.h; sourceTree = "<group>"; };
 		B05A83981E702AD400AF46A0 /* App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-Bridging-Header.h"; sourceTree = "<group>"; };
-		B05A83991E702AD500AF46A0 /* RadioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RadioViewController.m; path = ../RadioViewController.m; sourceTree = "<group>"; };
+		B05A839D1E70326900AF46A0 /* MenuViewCotroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewCotroller.swift; path = ../MenuViewCotroller.swift; sourceTree = "<group>"; };
 		B0FED1D41E5F49E700671433 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FED1D71E5F49E700671433 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0FED1DC1E5F49E700671433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -109,8 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				B0FED2051E671A2B00671433 /* AlbumViewController.swift */,
-				B05A83971E7029C900AF46A0 /* RadioViewController.h */,
-				B05A83991E702AD500AF46A0 /* RadioViewController.m */,
+				B05A839D1E70326900AF46A0 /* MenuViewCotroller.swift */,
 				B0FED1FB1E647B4200671433 /* PlayListViewController.swift */,
 			);
 			name = Controller;
@@ -229,11 +227,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B05A839A1E702AD500AF46A0 /* RadioViewController.m in Sources */,
 				B0FED1FE1E65A48200671433 /* ColdplayLibrary.swift in Sources */,
 				B0FED2061E671A2B00671433 /* AlbumViewController.swift in Sources */,
 				B0FED1FC1E647B4200671433 /* PlayListViewController.swift in Sources */,
 				B0FED1D81E5F49E700671433 /* AppDelegate.swift in Sources */,
+				B05A839E1E70326900AF46A0 /* MenuViewCotroller.swift in Sources */,
 				B0FED2021E65BC7A00671433 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
