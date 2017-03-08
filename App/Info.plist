@@ -31,7 +31,7 @@
 			<string>com.swift-player.spotify-auth</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>spotify-ios-sdk-beta</string>
+				<string>SwiftPlayer</string>
 			</array>
 		</dict>
 	</array>

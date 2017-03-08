@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,21 +21,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Radio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xuF-HY-2i5">
-                                <rect key="frame" x="121" y="264" width="157" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="157" id="B8b-mV-aKv"/>
-                                    <constraint firstAttribute="height" constant="34" id="Ea9-C7-1na"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YOB-g2-Jkj">
+                                <rect key="frame" x="14" y="305" width="347" height="57"/>
+                                <state key="normal" image="Image"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="mGq-Sf-rYM" firstAttribute="top" secondItem="xuF-HY-2i5" secondAttribute="bottom" constant="369" id="47p-Il-k6D"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="xuF-HY-2i5" secondAttribute="trailing" constant="81" id="Oaf-KR-hIZ"/>
+                            <constraint firstItem="YOB-g2-Jkj" firstAttribute="centerY" secondItem="7mC-OI-NTM" secondAttribute="centerY" id="FqT-x2-E6l"/>
+                            <constraint firstItem="YOB-g2-Jkj" firstAttribute="centerX" secondItem="7mC-OI-NTM" secondAttribute="centerX" id="RK0-Cs-a1L"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="uMc-72-2P1">
@@ -70,4 +63,7 @@
             <point key="canvasLocation" x="-151.19999999999999" y="178.56071964017991"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Image" width="390" height="70"/>
+    </resources>
 </document>

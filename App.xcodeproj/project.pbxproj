@@ -38,7 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B05A83981E702AD400AF46A0 /* App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-Bridging-Header.h"; sourceTree = "<group>"; };
 		B05A83A31E7036A500AF46A0 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
 		B05A83A51E7038CE00AF46A0 /* Radio.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Radio.storyboard; sourceTree = "<group>"; };
 		B05A83A71E7038E000AF46A0 /* RadioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioViewController.swift; sourceTree = "<group>"; };
@@ -106,7 +105,6 @@
 				B0FED2031E65C95300671433 /* Assets.xcassets */,
 				B0FED1EB1E5F49E800671433 /* AppTests */,
 				B0FED1D51E5F49E700671433 /* Products */,
-				B05A83981E702AD400AF46A0 /* App-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
