@@ -12,7 +12,7 @@
 
 #endif /* RadioViewController_h */
 
-@interface ViewController : UIViewController {
+@interface RadioViewController : UIViewController {
     
     IBOutlet UIWebView *WebView;
     
