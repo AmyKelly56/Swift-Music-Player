@@ -24,6 +24,9 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YOB-g2-Jkj">
                                 <rect key="frame" x="14" y="305" width="347" height="57"/>
                                 <state key="normal" image="Image"/>
+                                <connections>
+                                    <action selector="loginSpotify:" destination="L8z-Eb-3Bx" eventType="touchUpInside" id="Tad-f2-orB"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -39,6 +42,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="loginButton" destination="YOB-g2-Jkj" id="uWL-ou-vvD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KIX-oX-IT5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
