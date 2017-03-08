@@ -32,23 +32,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0oT-Pp-lKs">
-                                <rect key="frame" x="0.0" y="64" width="375" height="44"/>
-                                <items>
-                                    <navigationItem title="Title" id="b3B-Z6-Oc8"/>
-                                </items>
-                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="0oT-Pp-lKs" firstAttribute="top" secondItem="mBs-tf-Q4G" secondAttribute="bottom" id="1QA-a7-jPU"/>
                             <constraint firstItem="mGq-Sf-rYM" firstAttribute="top" secondItem="xuF-HY-2i5" secondAttribute="bottom" constant="369" id="47p-Il-k6D"/>
-                            <constraint firstItem="0oT-Pp-lKs" firstAttribute="leading" secondItem="7mC-OI-NTM" secondAttribute="leading" id="BK0-j4-1wD"/>
                             <constraint firstAttribute="trailingMargin" secondItem="xuF-HY-2i5" secondAttribute="trailing" constant="81" id="Oaf-KR-hIZ"/>
-                            <constraint firstAttribute="trailing" secondItem="0oT-Pp-lKs" secondAttribute="trailing" id="d21-r7-kCY"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="uMc-72-2P1"/>
+                    <navigationItem key="navigationItem" id="uMc-72-2P1">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="wx1-Lf-uU6">
+                            <connections>
+                                <action selector="doneAction:" destination="L8z-Eb-3Bx" id="uyI-aX-W1v"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KIX-oX-IT5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -59,7 +56,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dHU-FG-R1u" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CNF-TK-GAl">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="CNF-TK-GAl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
