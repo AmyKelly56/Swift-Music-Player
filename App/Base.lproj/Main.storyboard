@@ -249,9 +249,10 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XBp-u7-CJp" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="SPj-vQ-FrL">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="SPj-vQ-FrL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="barTintColor" white="0.0" alpha="0.5" colorSpace="calibratedWhite"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="20"/>
