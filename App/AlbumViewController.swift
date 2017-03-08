@@ -20,8 +20,8 @@ class AlbumViewController: UIViewController {
     func updateUI()
     {
         let albumName = "\((album?.coverImageName)!)"
-        backgroundImageView.image = UIImage(named: albumName)
-        albumCoverImageView.image = UIImage(named: albumName)
+        backgroundImageView?.image = UIImage(named: albumName)
+        albumCoverImageView?.image = UIImage(named: albumName)
         
         let songList = ((album?.songs)! as NSArray).componentsJoined(by: ", ")
         descriptionTextView.text = "\((album?.description)!)\n\n Songs: \n\(songList)"
@@ -34,5 +34,11 @@ class AlbumViewController: UIViewController {
         
         updateUI()
         
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        backgroundImageView?.removeFromSuperview()
     }
 }
