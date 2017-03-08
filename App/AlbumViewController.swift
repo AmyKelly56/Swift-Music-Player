@@ -24,7 +24,7 @@ class AlbumViewController: UIViewController {
         albumCoverImageView.image = UIImage(named: albumName)
         
         let songList = ((album?.songs)! as NSArray).componentsJoined(by: ", ")
-        descriptionTextView.text = "\(album?.description) \n\n Songs: \n\(songList)"
+        descriptionTextView.text = "\((album?.description)!)\n\n Songs: \n\(songList)"
     
     }
     
