@@ -52,11 +52,11 @@
 		B05A83D11E70609D00AF46A0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B05A83DB1E71B63A00AF46A0 /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyMetadata.framework; sourceTree = "<group>"; };
 		B05A83DD1E71BAC100AF46A0 /* SpotifyTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpotifyTest-Bridging-Header.h"; sourceTree = "<group>"; };
-		B05A83E11E71BB1E00AF46A0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B05A83E31E71BB2700AF46A0 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
-		B05A83E51E71BB3100AF46A0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B05A83E11E71BB1E00AF46A0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		B05A83E31E71BB2700AF46A0 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../WebViewController.swift; sourceTree = "<group>"; };
+		B05A83E51E71BB3100AF46A0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
 		B05A83E91E71BB6A00AF46A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B05A83EB1E71BB7800AF46A0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B05A83EB1E71BB7800AF46A0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		B0FED1D41E5F49E700671433 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FED1D71E5F49E700671433 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0FED1DC1E5F49E700671433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -104,18 +104,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B05A83DE1E71BAE200AF46A0 /* Spotify */ = {
-			isa = PBXGroup;
-			children = (
-				B05A83E11E71BB1E00AF46A0 /* ViewController.swift */,
-				B05A83E31E71BB2700AF46A0 /* WebViewController.swift */,
-				B05A83E51E71BB3100AF46A0 /* LoginViewController.swift */,
-				B05A83EB1E71BB7800AF46A0 /* Info.plist */,
-			);
-			name = Spotify;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		B0FED1CB1E5F49E700671433 = {
 			isa = PBXGroup;
 			children = (
@@ -145,11 +133,11 @@
 			children = (
 				B0FED1D71E5F49E700671433 /* AppDelegate.swift */,
 				B0FED1FF1E65A4CE00671433 /* Controller */,
-				B05A83DE1E71BAE200AF46A0 /* Spotify */,
 				B0FED2001E65A4EB00671433 /* Model */,
 				B0FED1DB1E5F49E700671433 /* Main.storyboard */,
 				B05A83A31E7036A500AF46A0 /* Menu.storyboard */,
 				B05A83A51E7038CE00AF46A0 /* Radio.storyboard */,
+				B05A83EB1E71BB7800AF46A0 /* Info.plist */,
 				B0FED1E31E5F49E800671433 /* Info.plist */,
 			);
 			path = App;
@@ -171,6 +159,9 @@
 				B05A83A91E70394900AF46A0 /* MenuViewController.swift */,
 				B0FED1FB1E647B4200671433 /* PlayListViewController.swift */,
 				B05A83A71E7038E000AF46A0 /* RadioViewController.swift */,
+				B05A83E51E71BB3100AF46A0 /* LoginViewController.swift */,
+				B05A83E11E71BB1E00AF46A0 /* ViewController.swift */,
+				B05A83E31E71BB2700AF46A0 /* WebViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
