@@ -12,14 +12,12 @@ class RadioViewController: UIViewController {
 
     
     
-
-    @IBOutlet weak var loginButton: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
 
+    
     @IBAction func doneAction(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }

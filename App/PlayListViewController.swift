@@ -26,6 +26,8 @@ class PlayListViewController: UIViewController {
     var covers: [UIImageView]!
     
     
+ 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     
