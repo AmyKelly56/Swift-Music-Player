@@ -199,6 +199,10 @@
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eVt-zC-Qbh">
                                             <rect key="frame" x="0.0" y="63" width="375" height="320"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <gestureRecognizers/>
+                                            <connections>
+                                                <outletCollection property="gestureRecognizers" destination="CDW-rS-ngn" appends="YES" id="yHi-Tr-v3A"/>
+                                            </connections>
                                         </imageView>
                                         <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jxn-o3-xi5">
                                             <rect key="frame" x="0.0" y="391" width="375" height="277"/>
@@ -227,13 +231,18 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m6G-wX-FEm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="CDW-rS-ngn">
+                    <connections>
+                        <segue destination="nLu-MJ-f7V" kind="show" identifier="Show YouTube Player" id="Mi1-vE-Qe1"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2895.1999999999998" y="-215.44227886056973"/>
         </scene>
-        <!--View Controller-->
+        <!--You Tube Player View Controller-->
         <scene sceneID="uS2-Ap-sZ1">
             <objects>
-                <viewController id="nLu-MJ-f7V" sceneMemberID="viewController">
+                <viewController id="nLu-MJ-f7V" customClass="YouTubePlayerViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hCg-dY-4iS"/>
                         <viewControllerLayoutGuide type="bottom" id="THx-oR-oXF"/>
@@ -242,13 +251,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jsr-U9-N7N">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jsr-U9-N7N">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="THx-oR-oXF" firstAttribute="top" secondItem="jsr-U9-N7N" secondAttribute="bottom" id="5d6-Yw-K90"/>
+                            <constraint firstItem="jsr-U9-N7N" firstAttribute="top" secondItem="l8b-OD-dUR" secondAttribute="top" id="Bf1-cc-F0F"/>
+                            <constraint firstItem="jsr-U9-N7N" firstAttribute="leading" secondItem="l8b-OD-dUR" secondAttribute="leading" id="EFx-Yz-qTD"/>
+                            <constraint firstAttribute="trailing" secondItem="jsr-U9-N7N" secondAttribute="trailing" id="thh-oI-9a8"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C50-Td-x7h" userLabel="First Responder" sceneMemberID="firstResponder"/>
