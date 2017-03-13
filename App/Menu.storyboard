@@ -251,18 +251,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jsr-U9-N7N">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W8n-0i-9zx" customClass="YouTubePlayerView" customModule="App" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="THx-oR-oXF" firstAttribute="top" secondItem="jsr-U9-N7N" secondAttribute="bottom" id="5d6-Yw-K90"/>
-                            <constraint firstItem="jsr-U9-N7N" firstAttribute="top" secondItem="l8b-OD-dUR" secondAttribute="top" id="Bf1-cc-F0F"/>
-                            <constraint firstItem="jsr-U9-N7N" firstAttribute="leading" secondItem="l8b-OD-dUR" secondAttribute="leading" id="EFx-Yz-qTD"/>
-                            <constraint firstAttribute="trailing" secondItem="jsr-U9-N7N" secondAttribute="trailing" id="thh-oI-9a8"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C50-Td-x7h" userLabel="First Responder" sceneMemberID="firstResponder"/>
