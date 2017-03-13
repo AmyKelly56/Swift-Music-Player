@@ -16,20 +16,26 @@ class YouTubePlayer: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
+    public class YouTubePlayerView: UIView, UIWebViewDelegate {
+        
+        public typealias YouTubePlayerParameters = [String: AnyObject]
+        
+        private var webView: UIWebView!
+        
+        /** The readiness of the player */
+        private(set) public var ready = false
+        
+        /** The current state of the video player */
+        private(set) public var playerState = YouTubePlayerState.Unstarted
+        
+        /** The current playback quality of the video player */
+        private(set) public var playbackQuality = YouTubePlaybackQuality.Small
+        
+        /** Used to configure the player */
+        public var playerVars = YouTubePlayerParameters()
+        
+        /** Used to respond to player events */
+        public var delegate: YouTubePlayerDelegate?
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
