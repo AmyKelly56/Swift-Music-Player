@@ -31,7 +31,7 @@ class RadioViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == Storyboard.showYoutubeSegue {
             let youtubePlayerViewController = segue.destination as! YouTubePlayerViewController
-            youtubePlayerViewController.loadVideoURL = NSURL(string: sampleVideoString)
+            //youtubePlayerViewController.loadVideoURL = NSURL(string: sampleVideoString)
         }
     }
 
