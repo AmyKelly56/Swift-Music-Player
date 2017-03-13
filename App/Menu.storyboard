@@ -233,7 +233,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m6G-wX-FEm" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="CDW-rS-ngn">
                     <connections>
-                        <segue destination="nLu-MJ-f7V" kind="show" identifier="Show YouTube Player" id="Mi1-vE-Qe1"/>
+                        <segue destination="nLu-MJ-f7V" kind="show" identifier="showYouTubePlayer" id="Mi1-vE-Qe1"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
