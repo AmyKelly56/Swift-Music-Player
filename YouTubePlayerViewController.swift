@@ -18,7 +18,7 @@ class YouTubePlayerViewController: UIViewController {
         super.viewDidLoad()
 
         if let videoURL = videoURL {
-            youtubePlayerView.loadVideoURL(videoURL)
+            youtubePlayerView.loadVideoURL(videoURL: videoURL)
         }
         else {
             let alertController = UIAlertController(title: "error", message: "Video cannot be displayed", preferredStyle: .alert)
