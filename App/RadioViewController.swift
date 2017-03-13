@@ -22,18 +22,6 @@ class RadioViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
     
-    private struct Storyboard {
-        static let showYoutubeSegue = "Show Youtube Player"
-    }
-    
-    private let sampleVideoString = "https://www.youtube.com/watch?v=ECyhMAs1uZM"
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == Storyboard.showYoutubeSegue {
-            let youtubePlayerViewController = segue.destination as! YouTubePlayerViewController
-            //youtubePlayerViewController.loadVideoURL = NSURL(string: sampleVideoString)
-        }
-    }
 
     
     override func didReceiveMemoryWarning() {
