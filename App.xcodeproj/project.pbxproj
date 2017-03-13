@@ -12,8 +12,6 @@
 		B05A83A81E7038E000AF46A0 /* RadioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A83A71E7038E000AF46A0 /* RadioViewController.swift */; };
 		B05A83AA1E70394900AF46A0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A83A91E70394900AF46A0 /* MenuViewController.swift */; };
 		B05A83D01E70609500AF46A0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05A83CF1E70609500AF46A0 /* AVFoundation.framework */; };
-		B05A83F01E76E74000AF46A0 /* YouTubePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A83EF1E76E74000AF46A0 /* YouTubePlayerViewController.swift */; };
-		B05A83FC1E77084200AF46A0 /* YouTubePlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05A83FB1E77084200AF46A0 /* YouTubePlayer.framework */; };
 		B0FED1D81E5F49E700671433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FED1D71E5F49E700671433 /* AppDelegate.swift */; };
 		B0FED1DD1E5F49E700671433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FED1DB1E5F49E700671433 /* Main.storyboard */; };
 		B0FED1ED1E5F49E800671433 /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FED1EC1E5F49E800671433 /* AppTests.swift */; };
@@ -41,8 +39,6 @@
 		B05A83A91E70394900AF46A0 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ../MenuViewController.swift; sourceTree = "<group>"; };
 		B05A83CF1E70609500AF46A0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B05A83DD1E71BAC100AF46A0 /* SpotifyTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpotifyTest-Bridging-Header.h"; sourceTree = "<group>"; };
-		B05A83EF1E76E74000AF46A0 /* YouTubePlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YouTubePlayerViewController.swift; path = ../YouTubePlayerViewController.swift; sourceTree = "<group>"; };
-		B05A83FB1E77084200AF46A0 /* YouTubePlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YouTubePlayer.framework; path = App/YouTubePlayer.framework; sourceTree = "<group>"; };
 		B0FED1D41E5F49E700671433 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FED1D71E5F49E700671433 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0FED1DC1E5F49E700671433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,7 +59,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B05A83D01E70609500AF46A0 /* AVFoundation.framework in Frameworks */,
-				B05A83FC1E77084200AF46A0 /* YouTubePlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +75,6 @@
 		B0FED1CB1E5F49E700671433 = {
 			isa = PBXGroup;
 			children = (
-				B05A83FB1E77084200AF46A0 /* YouTubePlayer.framework */,
 				B05A83CF1E70609500AF46A0 /* AVFoundation.framework */,
 				B0FED1D61E5F49E700671433 /* App */,
 				B0FED2031E65C95300671433 /* Assets.xcassets */,
@@ -129,7 +123,6 @@
 				B05A83A91E70394900AF46A0 /* MenuViewController.swift */,
 				B0FED1FB1E647B4200671433 /* PlayListViewController.swift */,
 				B05A83A71E7038E000AF46A0 /* RadioViewController.swift */,
-				B05A83EF1E76E74000AF46A0 /* YouTubePlayerViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -256,7 +249,6 @@
 				B0FED1FC1E647B4200671433 /* PlayListViewController.swift in Sources */,
 				B0FED1D81E5F49E700671433 /* AppDelegate.swift in Sources */,
 				B0FED2021E65BC7A00671433 /* Album.swift in Sources */,
-				B05A83F01E76E74000AF46A0 /* YouTubePlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

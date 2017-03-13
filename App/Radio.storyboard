@@ -25,12 +25,21 @@
                                 <rect key="frame" x="0.0" y="72" width="229" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Watch Coldplay Ghost Stories"/>
-                                <connections>
-                                    <segue destination="j2u-mo-DYa" kind="show" identifier="show YouTube Player" id="Lp8-EJ-J2P"/>
-                                </connections>
                             </button>
+                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vR8-k9-0bi">
+                                <rect key="frame" x="0.0" y="163" width="375" height="225"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="354" id="Jyi-JL-qGL"/>
+                                    <constraint firstAttribute="width" constant="343" id="UGz-Mx-Uh9"/>
+                                </constraints>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vR8-k9-0bi" firstAttribute="centerY" secondItem="KaP-Lh-tf6" secondAttribute="centerY" constant="-58" id="sRa-ML-Bbo"/>
+                            <constraint firstItem="vR8-k9-0bi" firstAttribute="centerX" secondItem="KaP-Lh-tf6" secondAttribute="centerX" id="vtK-Ee-iZA"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="1Z5-H5-g41">
                         <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="lkw-Rs-ZWl">
@@ -39,35 +48,13 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="videoView" destination="vR8-k9-0bi" id="Z9U-aw-GRI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1W8-ga-1W0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3559.1999999999998" y="136.28185907046478"/>
-        </scene>
-        <!--You Tube Player View Controller-->
-        <scene sceneID="a1Q-kO-Gii">
-            <objects>
-                <viewController id="j2u-mo-DYa" customClass="YouTubePlayerViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="e3h-5d-wBw"/>
-                        <viewControllerLayoutGuide type="bottom" id="PHv-au-Hp3"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="K5q-Ey-Slx">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ukU-GX-gS6">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nYi-xO-7lC" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4277.6000000000004" y="139.880059970015"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="PbM-eO-3C0">
