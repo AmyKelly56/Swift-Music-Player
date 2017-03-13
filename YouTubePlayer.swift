@@ -1,5 +1,5 @@
 //
-//  YouTubePlayerViewController.swift
+//  YouTubePlayer.swift
 //  App
 //
 //  Created by Amy Kelly on 13/03/2017.
@@ -8,22 +8,12 @@
 
 import UIKit
 
-class YouTubePlayerViewController: UIViewController {
-    
-    var videoURL: NSURL!
-    @IBOutlet weak var youtubePlayerView : YouTubePlayerView!
-    
+class YouTubePlayer: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        if let videoURL = videoURL {
-            youtubePlayerView.loadVideoURL(videoURL)
-        }
-        else {
-            let alertController = UIAlertController(title: "error", message: "Video cannot be displayed", preferredStyle: .alert)
-            self.presentViewController(alertController, animated: true, completion: nil)
-        }
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
