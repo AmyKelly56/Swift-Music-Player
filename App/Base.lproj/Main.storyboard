@@ -21,9 +21,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Menu" translatesAutoresizingMaskIntoConstraints="NO" id="IOi-LY-yG5">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Menu" translatesAutoresizingMaskIntoConstraints="NO" id="IOi-LY-yG5">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xD5-7a-DG6">
                                 <rect key="frame" x="123" y="227" width="128" height="65"/>
@@ -48,6 +47,12 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <constraints>
+                            <constraint firstItem="IOi-LY-yG5" firstAttribute="leading" secondItem="DMX-3s-cKt" secondAttribute="leading" id="2kv-Kd-xhZ"/>
+                            <constraint firstItem="9xU-k4-kGK" firstAttribute="top" secondItem="IOi-LY-yG5" secondAttribute="bottom" id="7wJ-jd-gBc"/>
+                            <constraint firstItem="IOi-LY-yG5" firstAttribute="top" secondItem="DMX-3s-cKt" secondAttribute="top" id="dOa-1c-yMA"/>
+                            <constraint firstAttribute="trailing" secondItem="IOi-LY-yG5" secondAttribute="trailing" id="p1H-CE-AlM"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eVJ-ec-fRO" userLabel="First Responder" sceneMemberID="firstResponder"/>
