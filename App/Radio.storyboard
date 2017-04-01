@@ -20,16 +20,6 @@
                     <view key="view" contentMode="scaleToFill" id="KaP-Lh-tf6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAO-1D-3eT">
-                                <rect key="frame" x="0.0" y="72" width="229" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Watch Coldplay Ghost Stories"/>
-                                <connections>
-                                    <segue destination="dni-TX-GyD" kind="show" id="TwJ-GL-bHr"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="1Z5-H5-g41">
@@ -39,45 +29,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <outlet property="videoView" destination="vR8-k9-0bi" id="Z9U-aw-GRI"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1W8-ga-1W0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3559.1999999999998" y="136.28185907046478"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="yQJ-1Q-6nY">
-            <objects>
-                <viewController id="dni-TX-GyD" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="oO7-Pj-x6g"/>
-                        <viewControllerLayoutGuide type="bottom" id="fk6-ye-EJR"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="vjA-88-Zjk">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vR8-k9-0bi">
-                                <rect key="frame" x="0.0" y="118" width="375" height="225"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="354" id="Jyi-JL-qGL"/>
-                                    <constraint firstAttribute="width" constant="343" id="UGz-Mx-Uh9"/>
-                                </constraints>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="vR8-k9-0bi" firstAttribute="centerX" secondItem="vjA-88-Zjk" secondAttribute="centerX" id="7cd-dq-JUi"/>
-                            <constraint firstItem="vR8-k9-0bi" firstAttribute="centerY" secondItem="vjA-88-Zjk" secondAttribute="centerY" constant="-103" id="Dvj-OT-Ojq"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MnG-vo-KDZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4436" y="136"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="PbM-eO-3C0">

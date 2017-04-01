@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B028B9E61E8FB8BE00D6A945 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B028B9E51E8FB8BE00D6A945 /* MenuViewController.swift */; };
 		B05A83A41E7036A500AF46A0 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B05A83A31E7036A500AF46A0 /* Menu.storyboard */; };
 		B05A83A61E7038CE00AF46A0 /* Radio.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B05A83A51E7038CE00AF46A0 /* Radio.storyboard */; };
 		B05A83A81E7038E000AF46A0 /* RadioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A83A71E7038E000AF46A0 /* RadioViewController.swift */; };
-		B05A83AA1E70394900AF46A0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05A83A91E70394900AF46A0 /* MenuViewController.swift */; };
 		B05A83D01E70609500AF46A0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05A83CF1E70609500AF46A0 /* AVFoundation.framework */; };
 		B0FED1D81E5F49E700671433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FED1D71E5F49E700671433 /* AppDelegate.swift */; };
 		B0FED1DD1E5F49E700671433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0FED1DB1E5F49E700671433 /* Main.storyboard */; };
@@ -33,12 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B028B9E51E8FB8BE00D6A945 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		B028B9E71E8FB91C00D6A945 /* App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "App-Bridging-Header.h"; path = "App/App-Bridging-Header.h"; sourceTree = "<group>"; };
 		B05A83A31E7036A500AF46A0 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
 		B05A83A51E7038CE00AF46A0 /* Radio.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Radio.storyboard; sourceTree = "<group>"; };
 		B05A83A71E7038E000AF46A0 /* RadioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioViewController.swift; sourceTree = "<group>"; };
-		B05A83A91E70394900AF46A0 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ../MenuViewController.swift; sourceTree = "<group>"; };
 		B05A83CF1E70609500AF46A0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		B05A83DD1E71BAC100AF46A0 /* SpotifyTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpotifyTest-Bridging-Header.h"; sourceTree = "<group>"; };
 		B0FED1D41E5F49E700671433 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0FED1D71E5F49E700671433 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0FED1DC1E5F49E700671433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,12 +75,12 @@
 		B0FED1CB1E5F49E700671433 = {
 			isa = PBXGroup;
 			children = (
+				B028B9E71E8FB91C00D6A945 /* App-Bridging-Header.h */,
 				B05A83CF1E70609500AF46A0 /* AVFoundation.framework */,
 				B0FED1D61E5F49E700671433 /* App */,
 				B0FED2031E65C95300671433 /* Assets.xcassets */,
 				B0FED1EB1E5F49E800671433 /* AppTests */,
 				B0FED1D51E5F49E700671433 /* Products */,
-				B05A83DD1E71BAC100AF46A0 /* SpotifyTest-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,7 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				B0FED2051E671A2B00671433 /* AlbumViewController.swift */,
-				B05A83A91E70394900AF46A0 /* MenuViewController.swift */,
+				B028B9E51E8FB8BE00D6A945 /* MenuViewController.swift */,
 				B0FED1FB1E647B4200671433 /* PlayListViewController.swift */,
 				B05A83A71E7038E000AF46A0 /* RadioViewController.swift */,
 			);
@@ -245,10 +245,10 @@
 				B0FED1FE1E65A48200671433 /* ColdplayLibrary.swift in Sources */,
 				B05A83A81E7038E000AF46A0 /* RadioViewController.swift in Sources */,
 				B0FED2061E671A2B00671433 /* AlbumViewController.swift in Sources */,
-				B05A83AA1E70394900AF46A0 /* MenuViewController.swift in Sources */,
 				B0FED1FC1E647B4200671433 /* PlayListViewController.swift in Sources */,
 				B0FED1D81E5F49E700671433 /* AppDelegate.swift in Sources */,
 				B0FED2021E65BC7A00671433 /* Album.swift in Sources */,
+				B028B9E61E8FB8BE00D6A945 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
