@@ -12,7 +12,7 @@
 		B028B9EB1E8FCBDD00D6A945 /* LibraryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B028B9EA1E8FCBDD00D6A945 /* LibraryTableViewController.swift */; };
 		B028B9EF1E8FCEAB00D6A945 /* MusicLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B028B9EE1E8FCEAB00D6A945 /* MusicLibrary.swift */; };
 		B028B9F11E8FCF6E00D6A945 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B028B9F01E8FCF6E00D6A945 /* PlayerViewController.swift */; };
-		B028B9F31E8FCFB400D6A945 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B028B9F21E8FCFB400D6A945 /* SongTableViewCell.swift */; };
+		B028B9F71E8FD26C00D6A945 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B028B9F61E8FD26C00D6A945 /* SongTableViewCell.swift */; };
 		B05A83A41E7036A500AF46A0 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B05A83A31E7036A500AF46A0 /* Menu.storyboard */; };
 		B05A83D01E70609500AF46A0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05A83CF1E70609500AF46A0 /* AVFoundation.framework */; };
 		B0FED1D81E5F49E700671433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FED1D71E5F49E700671433 /* AppDelegate.swift */; };
@@ -42,7 +42,7 @@
 		B028B9EA1E8FCBDD00D6A945 /* LibraryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryTableViewController.swift; sourceTree = "<group>"; };
 		B028B9EE1E8FCEAB00D6A945 /* MusicLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicLibrary.swift; sourceTree = "<group>"; };
 		B028B9F01E8FCF6E00D6A945 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
-		B028B9F21E8FCFB400D6A945 /* SongTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SongTableViewCell.swift; path = ../SongTableViewCell.swift; sourceTree = "<group>"; };
+		B028B9F61E8FD26C00D6A945 /* SongTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
 		B05A83A31E7036A500AF46A0 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
 		B05A83CF1E70609500AF46A0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B0FED1D41E5F49E700671433 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,7 +130,7 @@
 				B028B9E51E8FB8BE00D6A945 /* MenuViewController.swift */,
 				B028B9F01E8FCF6E00D6A945 /* PlayerViewController.swift */,
 				B0FED1FB1E647B4200671433 /* PlayListViewController.swift */,
-				B028B9F21E8FCFB400D6A945 /* SongTableViewCell.swift */,
+				B028B9F61E8FD26C00D6A945 /* SongTableViewCell.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -253,7 +253,7 @@
 			files = (
 				B028B9EB1E8FCBDD00D6A945 /* LibraryTableViewController.swift in Sources */,
 				B0FED1FE1E65A48200671433 /* ColdplayLibrary.swift in Sources */,
-				B028B9F31E8FCFB400D6A945 /* SongTableViewCell.swift in Sources */,
+				B028B9F71E8FD26C00D6A945 /* SongTableViewCell.swift in Sources */,
 				B0FED2061E671A2B00671433 /* AlbumViewController.swift in Sources */,
 				B028B9EF1E8FCEAB00D6A945 /* MusicLibrary.swift in Sources */,
 				B0FED1FC1E647B4200671433 /* PlayListViewController.swift in Sources */,

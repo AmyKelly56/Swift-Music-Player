@@ -64,9 +64,9 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="artistLabel" destination="cjv-TK-hE7" id="QA3-JO-MQ8"/>
-                                    <outlet property="coverImageView" destination="erD-s3-Hbn" id="zOI-oV-WFh"/>
-                                    <outlet property="songTitleLabel" destination="rxh-C9-2G0" id="86V-cF-NC5"/>
+                                    <outlet property="artistLabel" destination="cjv-TK-hE7" id="xOJ-dX-DTb"/>
+                                    <outlet property="coverImageView" destination="erD-s3-Hbn" id="c5D-y6-0bd"/>
+                                    <outlet property="songTitleLabel" destination="rxh-C9-2G0" id="cbI-hW-eE6"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
