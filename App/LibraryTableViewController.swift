@@ -2,23 +2,55 @@
 //  LibraryTableViewController.swift
 //  App
 //
-//  Created by Amy Kelly on 01/04/2017.
+//  Created by Amy Kelly on 08/03/2017.
 //  Copyright © 2017 Amy Kelly. All rights reserved.
 //
 
 import UIKit
 
-class LibraryTableViewController: UIViewController {
+class LibraryTableViewController: UITableViewController {
 
+    var library = MusicLibrary().library
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    // MARK: - Table view data source
+
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        // #warning Incomplete implementation, return the number of rows
+        return library.count
     }
 
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "musicCell", for: indexPath) as! SongTableViewCell
+        
+        cell.artistLabel.text = library[indexPath.row]["artist"]
+        cell.songTitleLabel.text = library[indexPath.row]["title"]
+        
+        if let coverImage = library[indexPath.row]["coverImage"] {
+            
+            cell.coverImageView.image = UIImage(named: "\(coverImage).jpg")
+
+        }
+        
+        return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "showPlayer", sender: self)
+    }
+
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showPlayer" {
+            
+            let playerVC = segue.destination as! PlayerViewController
+            let indexPath = tableView.indexPathForSelectedRow!
+            playerVC.trackId = indexPath.row
+            
+        }
+    }
 }

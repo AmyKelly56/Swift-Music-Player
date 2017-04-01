@@ -296,13 +296,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="circled_play" width="16" height="16"/>
-        <image name="end" width="16" height="16"/>
-        <image name="fast_forward" width="16" height="16"/>
-        <image name="pause" width="16" height="16"/>
-        <image name="rewind" width="16" height="16"/>
-        <image name="shuffle" width="16" height="16"/>
-        <image name="skip_to_start" width="16" height="16"/>
-        <image name="stop" width="16" height="16"/>
+        <image name="circled_play" width="32" height="32"/>
+        <image name="end" width="32" height="32"/>
+        <image name="fast_forward" width="32" height="32"/>
+        <image name="pause" width="32" height="32"/>
+        <image name="rewind" width="32" height="32"/>
+        <image name="shuffle" width="32" height="32"/>
+        <image name="skip_to_start" width="32" height="32"/>
+        <image name="stop" width="32" height="32"/>
     </resources>
 </document>
