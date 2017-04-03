@@ -33,6 +33,7 @@
 		B028BA491E92953400D6A945 /* 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B028BA481E92953400D6A945 /* 8.mp3 */; };
 		B028BA4B1E92953C00D6A945 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B028BA4A1E92953C00D6A945 /* 8.jpg */; };
 		B028BA4D1E92954300D6A945 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B028BA4C1E92954300D6A945 /* 9.jpg */; };
+		B028BA4F1E92961300D6A945 /* 9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B028BA4E1E92961300D6A945 /* 9.mp3 */; };
 		B05A83A41E7036A500AF46A0 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B05A83A31E7036A500AF46A0 /* Menu.storyboard */; };
 		B05A83D01E70609500AF46A0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05A83CF1E70609500AF46A0 /* AVFoundation.framework */; };
 		B0FED1D81E5F49E700671433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FED1D71E5F49E700671433 /* AppDelegate.swift */; };
@@ -56,7 +57,6 @@
 
 /* Begin PBXFileReference section */
 		B028B9E51E8FB8BE00D6A945 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		B028B9E71E8FB91C00D6A945 /* App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "App-Bridging-Header.h"; path = "App/App-Bridging-Header.h"; sourceTree = "<group>"; };
 		B028B9E81E8FCAC200D6A945 /* Player.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Player.storyboard; sourceTree = "<group>"; };
 		B028B9EE1E8FCEAB00D6A945 /* MusicLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicLibrary.swift; sourceTree = "<group>"; };
 		B028B9F61E8FD26C00D6A945 /* SongTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
@@ -82,6 +82,7 @@
 		B028BA481E92953400D6A945 /* 8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 8.mp3; sourceTree = "<group>"; };
 		B028BA4A1E92953C00D6A945 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
 		B028BA4C1E92954300D6A945 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		B028BA4E1E92961300D6A945 /* 9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 9.mp3; sourceTree = "<group>"; };
 		B05A83A31E7036A500AF46A0 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
 		B05A83CF1E70609500AF46A0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B0FED1D41E5F49E700671433 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +146,7 @@
 				B028BA441E92937800D6A945 /* 6.mp3 */,
 				B028BA461E92948A00D6A945 /* 7.mp3 */,
 				B028BA481E92953400D6A945 /* 8.mp3 */,
+				B028BA4E1E92961300D6A945 /* 9.mp3 */,
 			);
 			name = Audios;
 			sourceTree = "<group>";
@@ -152,7 +154,6 @@
 		B0FED1CB1E5F49E700671433 = {
 			isa = PBXGroup;
 			children = (
-				B028B9E71E8FB91C00D6A945 /* App-Bridging-Header.h */,
 				B05A83CF1E70609500AF46A0 /* AVFoundation.framework */,
 				B0FED1D61E5F49E700671433 /* App */,
 				B0FED1EB1E5F49E800671433 /* AppTests */,
@@ -315,6 +316,7 @@
 				B028BA2F1E928ED700D6A945 /* 1.mp3 in Resources */,
 				B028BA3B1E9290E000D6A945 /* 4.mp3 in Resources */,
 				B028BA491E92953400D6A945 /* 8.mp3 in Resources */,
+				B028BA4F1E92961300D6A945 /* 9.mp3 in Resources */,
 				B028BA3F1E92912E00D6A945 /* 3.jpg in Resources */,
 				B028BA411E92936200D6A945 /* 6.jpg in Resources */,
 				B028BA291E928EAF00D6A945 /* 0.jpg in Resources */,

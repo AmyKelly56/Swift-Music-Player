@@ -9,8 +9,7 @@
 import UIKit
 
 class PlayListViewController: UIViewController {
-    
-    
+
     //MARK : Properities
     
     @IBOutlet weak var cover1: UIImageView!
@@ -30,6 +29,7 @@ class PlayListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     
         
          covers = [cover1, cover2, cover3, cover4, cover5, cover6, cover7, cover8];
@@ -37,6 +37,8 @@ class PlayListViewController: UIViewController {
         updateUI()
         
     }
+    
+  
     
     func updateUI()
     {

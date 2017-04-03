@@ -63,6 +63,7 @@
                                         <constraint firstItem="rxh-C9-2G0" firstAttribute="top" secondItem="GBS-sa-Wcw" secondAttribute="topMargin" id="pMm-CQ-anL"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <gestureRecognizers/>
                                 <connections>
                                     <outlet property="artistLabel" destination="cjv-TK-hE7" id="xOJ-dX-DTb"/>
                                     <outlet property="coverImageView" destination="erD-s3-Hbn" id="c5D-y6-0bd"/>

@@ -2,7 +2,7 @@
 //  PlayerViewController.swift
 //  App
 //
-//  Created by Amy Kelly on 08/03/2017.
+//  Created by Amy Kelly on 28/03/2017.
 //  Copyright © 2017 Amy Kelly. All rights reserved.
 //
 
@@ -152,7 +152,7 @@ class PlayerViewController: UIViewController {
     
     @IBAction func nextAction(_ sender: AnyObject) {
    
-        if trackId == 0 || trackId < 5 {
+        if trackId == 0 || trackId < 9 {
             if shuffle.isOn {
                 trackId = Int(arc4random_uniform(UInt32(library.count)))
             }else {
