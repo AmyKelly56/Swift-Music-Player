@@ -10,6 +10,6 @@ import Foundation
 
 struct MusicLibrary {
 
-    var library = [["title":"Closer-Wrap me in Your Arms","artist":"William McDowell","index":"0","coverImage":"0"],["title":"Falling in love with Jesus","artist":"Jonathan Buttler","index":"1","coverImage":"1"],["title":"Holyness medley sax","artist":"Micah Stampley","index":"2","coverImage":"2"],["title":"I could sing of your love","artist":"Unknown Artist","index":"3","coverImage":"3"],["title":"I surrender I give myself","artist":"William McDowell","index":"4","coverImage":"4"]]
+    var library = [["title":"Adventure of a Lifetime","artist":"Coldplay","index":"0","coverImage":"0"],["title":"Stay","artist":"Zedd & Alessia Cara","index":"1","coverImage":"1"],["title":"You Don't Know Me","artist":"Jax Jones","index":"2","coverImage":"2"],["title":"Symphony","artist":"Clean Bandit ft. Zara Larsson","index":"3","coverImage":"3"],["title":"Galway Girl","artist":"Ed Sheeran","index":"4","coverImage":"4"],["title":"Rozes","artist":"The Chainsmokers","index":"5","coverImage":"5"]]
     
 }

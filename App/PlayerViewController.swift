@@ -152,7 +152,7 @@ class PlayerViewController: UIViewController {
     
     @IBAction func nextAction(_ sender: AnyObject) {
    
-        if trackId == 0 || trackId < 4 {
+        if trackId == 0 || trackId < 5 {
             if shuffle.isOn {
                 trackId = Int(arc4random_uniform(UInt32(library.count)))
             }else {
