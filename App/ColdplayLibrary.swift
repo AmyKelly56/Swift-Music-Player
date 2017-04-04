@@ -27,47 +27,47 @@ struct ColdplayLibrary {
             "songs" : ["Always In My Head", "Magic", "Ink", "True Love", "Midnight", "Anothers Arms", "Sky Full of Stars", "O", "Oceans"]
         ],
         [
-            "title" : "A Head Full of Dreams",
-            "description" : "A Head Full of Dreams is the seventh studio album by the British rock band Coldplay. It was released on 4 December 2015 by Parlophone and Atlantic, with a 5.1 Surround Blu-ray Audio version being released via the band's website on 23 September 2016.",
-            "coverImageName" : "A Head Full of Dreams",
-            "songs" : ["A Head Full of Dreams", "Birds", "Everglow", "Hymn for the Weekend", "Adventure of a Lifetime", "Fun', Army of One", "Kaleidoscope", "Amazing Day", "Color Spectrum", "Up&Up"]
+            "title" : "÷",
+            "description" : "÷ is the third studio album by English singer-songwriter Ed Sheeran. It was released on 3 March 2017 through Asylum Records and Atlantic Records. Castle on the Hill, and Shape of You were released as the album's lead singles on 6 January 2017.",
+            "coverImageName" : "Divide",
+            "songs" : ["Eraser", "Castle on the Hill", "Dive", "Shape of You", "Perfect", "Galway Girl", "Happier", "New Man", "Hearts Don't Break Around Here", "What Do I Know?", "How Would You Feel", "Supermarket Flowers"]
         ],
         [
-            "title" : "Mylo Xyloto",
-            "description" : "Mylo Xyloto /ˈmaɪloʊ ˈzaɪlətoʊ/ is fifth studio album by the British alternative rock band Coldplay. It was first released on 19 October 2011 by EMI, and later worldwide on 24 October.",
-            "coverImageName" : "Mylo Xyloto",
-            "songs" : ["Mylo Xyloto", "Hurts Like Heaven", "Paradise", "Charlie Brown", "Us Against The World", "M.M.I.X", "Every Teardrop is a Waterfall", "Major Minus", "UFO", "Princess of China", "Up in Flames", "A Hopeful Transmission", "Don't Let it Break Your Heart", "Up with the Birds"]
+            "title" : "Collage",
+            "description" : "Collage is the second extended play (EP) by American DJ duo The Chainsmokers. It was released on November 4, 2016, through Disruptor Records and Columbia Records.",
+            "coverImageName" : "Collage",
+            "songs" : ["Setting Fires", "All We Know", "Closer", "Inside Out", "Don't Let Me Down"]
         ],
         [
-            "title" : "Viva La Vida",
-            "description" : "Viva la Vida or Death and All His Friends, often referred to as simply Viva la Vida, is the fourth studio album by the British alternative rock band Coldplay, released on 12 June 2008 on Parlophone.",
-            "coverImageName" : "Viva La Vida",
-            "songs" : ["Viva La Vida", "Life in Technicolor", "Cemiteries in London", "Lost!", "42", "Lovers in Japan", "Yes", "Violet Hill", "Strawberry Swing", "Death and All His Friends"]
+            "title" : "25",
+            "description" : "25 is the third studio album by British singer and songwriter Adele. It was released on 20 November 2015, through XL Recordings",
+            "coverImageName" : "25",
+            "songs" : ["Hello", "Send My Love", "I Miss You", "When You Where Younger", "Remedy", "Water Under The Bridge", "River Lea", "Love In The Dark", "Million Years Ago", "All I Ask", "Sweet Devotion"]
         ],
         [
-            "title" : "X&Y",
-            "description" : "X&Y is the third studio album by the British alternative rock band Coldplay, released on 6 June 2005 worldwide by the record label Parlophone. The album was produced by the band, and British record producer Danton Supple.",
-            "coverImageName" : "X&Y",
-            "songs" : ["Square One", "What If", "White Shadows", "Fix You", "Talk", "X & Y", "Speed of Sounds", "A Message", "Low", "The Hardest Part", "Swalloed in the Sea", "Twisted Logic", "Til Kindom Come"]
+            "title" : "Lemonade",
+            "description" : "Lemonade is the sixth studio album by American singer Beyoncé. It was released on April 23, 2016, by Parkwood Entertainment and distributed through Columbia Records.",
+            "coverImageName" : "lemonade",
+            "songs" : ["Pray You Catch Me", "Hold Up", "Don't Hurt Yourself", "Sorry", "6 Inch", "Daddy Lessons", "Love Drought", "Sandcastles", "Forward", "Freedom", "All Night", "Formation"]
         ],
         [
-            "title" : "A Rush of Blood to the Head",
-            "description" : "A Rush of Blood to the Head is the second studio album by the British alternative rock band Coldplay. Released on 26 August 2002 in the UK through the label Parlophone, the album was produced by the band and British record producer Ken Nelson.",
-            "coverImageName" : "A Rush of Blood to the Head",
-            "songs" : ["Politik", "In My Place", "God Put A Smile Upon Your Face", "The Scientist", "Clocks", "Daylight", "Green Eyes", "Warning Sign", "A Whisper", "A Rush of Blood to the Head", "Amsterdam"]
+            "title" : "V",
+            "description" : "V is the fifth studio album by American band Maroon 5. It was released on August 29, 2014, by Interscope Records.",
+            "coverImageName" : "V",
+            "songs" : ["Maps", "Animals", "It Was Always You", "Unkiss Me", "Sugar", "Leaving California", "In Your Pocket", "New Love", "Coming Back For You", "Feelings", "My Heart Is Open", "Shoot Love", "Sex and Candy", "Lost Stars"]
         ],
         [
-            "title" : "Parachutes",
-            "description" : "Parachutes is the debut studio album by the British rock band Coldplay. It was released on 10 July 2000 by Parlophone in the United Kingdom.",
-            "coverImageName" : "Parachutes",
-            "songs" : ["Don't Panic", "Shiver", "Spies", "Sparks", "Yellow", "Trouble", "Parachutes", "High Speed", "We Never Change", "Everyhtings Not Lost"]
+            "title" : "Eyes Open",
+            "description" : "Eyes Open is the fourth studio album by Northern Irish-Scottish alternative rock band Snow Patrol. Produced by Jacknife Lee, it was released in the UK on 1 May 2006, and 9 May 2006 in the US.",
+            "coverImageName" : "Eyes Open",
+            "songs" : ["You'r All I Have", "Hands Open", "Chasing Cars", "Shut Your Eyes", "It's Beginning To Get Me", "You Could Be Happy", "Make This Go on Forever", "Set Fire To The Third Bar", "Headlights on a Dark Road", "Open Your Eyes", "The Finish Line"]
             
         ],
         [
-            "title" : "Safety",
-            "description" : "Safety was the first public release by the British rock band Coldplay. It was recorded over a weekend during May 1998, and was intended as a demo for record companies. It was financed by the band and their manager Phil Harvey for around £1500.",
-            "coverImageName" : "Safety",
-            "songs" : ["Bigger Stronger", "No More Keeping My Feet On The Ground", "Such a Rush"]
+            "title" : "Motion",
+            "description" : "Motion is the fourth studio album by Scottish DJ and record producer Calvin Harris, released on 31 October 2014 by Fly Eye Records and Columbia Records.",
+            "coverImageName" : "Motion",
+            "songs" : ["Faith", "Under Control", "Blame", "Love Now", "Slow Acid", "Outside", "It Was You", "Summer", "Overdrive", "Ectascy", "Pray to God", "Open Wide", "Together", "Burnin", "Dollar Signs"]
         ]
     
     
