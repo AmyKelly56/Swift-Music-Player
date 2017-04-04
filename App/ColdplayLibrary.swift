@@ -15,6 +15,7 @@ struct ColdplayLibrary {
         "description" : "Ghost Stories is the sixth studio album by the British rock band Coldplay. Co-produced by the band with Paul Epworth along with returning Mylo Xyloto producers Daniel Green and Rik Simpson, it was released by Parlophone on 16 May 2014.",
         "coverImageName" : "Ghost Stories",
         "songs" : ["Always In My Head", "Magic", "Ink", "True Love", "Midnight", "Anothers Arms", "Sky Full of Stars", "O", "Oceans"]
+        "
         
     ]
     
