@@ -78,7 +78,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="SONGS" id="ZzG-Hd-T6H"/>
                     <connections>
-                        <segue destination="bN8-hT-Lhz" kind="push" identifier="showPlayer" id="MVm-A0-Dkc"/>
+                        <segue destination="bN8-hT-Lhz" kind="show" identifier="showPlayer" id="MVm-A0-Dkc"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zQ5-ic-MOo" userLabel="First Responder" sceneMemberID="firstResponder"/>
