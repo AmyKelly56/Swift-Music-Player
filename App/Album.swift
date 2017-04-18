@@ -14,7 +14,7 @@ public struct AlbumKeys
     static let description = "description"
     static let coverImageName = "coverImageName"
     static let songs = "songs"
-    //static let videoCode = "videoCode"
+
 }
 
 class Album
@@ -23,8 +23,7 @@ class Album
     var description: String?
     var coverImageName: String?
     var songs: [String]?
-    //var videoCode: String?
-    
+  
     init(index: Int)
     {
         if index >= 0 && index < ColdplayLibrary().albums.count {
@@ -34,8 +33,7 @@ class Album
             description = album[AlbumKeys.description] as? String
             coverImageName = album[AlbumKeys.coverImageName] as? String
             songs = album[AlbumKeys.songs] as? [String]
-            //videoCode = album[AlbumKeys.videoCode] as? String
-            
+
         }
     }
 }
