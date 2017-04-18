@@ -19,6 +19,4 @@ class MenuViewController: UIViewController {
         super.didReceiveMemoryWarning()
       
     }
-    
-
 }
