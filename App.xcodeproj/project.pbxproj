@@ -54,7 +54,6 @@
 		B028BA771E93C53A00D6A945 /* 18.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B028BA6D1E93C53900D6A945 /* 18.mp3 */; };
 		B028BA781E93C53A00D6A945 /* 19.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B028BA6E1E93C53900D6A945 /* 19.mp3 */; };
 		B028BA7A1E93C5B300D6A945 /* 16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B028BA791E93C5B300D6A945 /* 16.jpg */; };
-		B028BA7C1E93E28600D6A945 /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = B028BA7B1E93E28600D6A945 /* Videos.swift */; };
 		B05A83A41E7036A500AF46A0 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B05A83A31E7036A500AF46A0 /* Menu.storyboard */; };
 		B05A83D01E70609500AF46A0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05A83CF1E70609500AF46A0 /* AVFoundation.framework */; };
 		B0FED1D81E5F49E700671433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FED1D71E5F49E700671433 /* AppDelegate.swift */; };
@@ -124,7 +123,6 @@
 		B028BA6D1E93C53900D6A945 /* 18.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 18.mp3; sourceTree = "<group>"; };
 		B028BA6E1E93C53900D6A945 /* 19.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 19.mp3; sourceTree = "<group>"; };
 		B028BA791E93C5B300D6A945 /* 16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpg; sourceTree = "<group>"; };
-		B028BA7B1E93E28600D6A945 /* Videos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
 		B05A83A31E7036A500AF46A0 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
 		B05A83CF1E70609500AF46A0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		B0FED1D41E5F49E700671433 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -275,7 +273,6 @@
 			isa = PBXGroup;
 			children = (
 				B0FED2011E65BC7A00671433 /* Album.swift */,
-				B028BA7B1E93E28600D6A945 /* Videos.swift */,
 				B0FED1FD1E65A48200671433 /* ColdplayLibrary.swift */,
 				B028B9EE1E8FCEAB00D6A945 /* MusicLibrary.swift */,
 			);
@@ -438,7 +435,6 @@
 				B0FED2021E65BC7A00671433 /* Album.swift in Sources */,
 				B028B9E61E8FB8BE00D6A945 /* MenuViewController.swift in Sources */,
 				B028BA1D1E8FDCDE00D6A945 /* PlayerViewController.swift in Sources */,
-				B028BA7C1E93E28600D6A945 /* Videos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

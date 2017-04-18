@@ -24,8 +24,7 @@ class PlayerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-        if let coverImage = library[trackId]["coverImage"]{
+        if let coverImage = library[trackId]["coverImage"] {
         coverImageView.image = UIImage(named: "\(coverImage).jpg")
         }
         
@@ -44,12 +43,11 @@ class PlayerViewController: UIViewController {
                 Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(PlayerViewController.updateProgressView), userInfo: nil, repeats: true)
                 progressView.setProgress(Float(audioPlayer.currentTime/audioPlayer.duration), animated: false)
                 
-            } catch let error as NSError {
+            }
+            catch let error as NSError {
                 print(error.localizedDescription)
             }
         }
-        
-        
     }
 
     override func viewWillDisappear(_ animated: Bool) {
