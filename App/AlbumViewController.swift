@@ -16,8 +16,6 @@ class AlbumViewController: UIViewController {
     @IBOutlet weak var albumCoverImageView: UIImageView!
     @IBOutlet weak var descriptionTextView: UITextView!
   
-    @IBOutlet weak var myWebView: UIWebView!
-    
     
     func updateUI() {
         
@@ -34,16 +32,8 @@ class AlbumViewController: UIViewController {
         super.viewDidLoad()
         
         updateUI()
-        getVideo(videoCode: "fyMhvkC3A84")
         
     }
-    
-    func getVideo(videoCode:String) {
-        let url = URL(string: "https//www.youtube.com/embed/\(videoCode)")
-        myWebView.loadRequest(URLRequest(url: url!))
-        
-    }
-    
   
     override func viewWillDisappear(_ animated: Bool) {
         
