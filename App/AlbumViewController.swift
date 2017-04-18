@@ -28,12 +28,7 @@ class AlbumViewController: UIViewController {
         let songList = ((album?.songs)! as NSArray).componentsJoined(by: ", ")
         descriptionTextView.text = "\((album?.description)!)\n\n Songs: \n\(songList)"
         
-        //let videoCode = "\((album?.videoCode)!)"
-       // let url = URL(string: "https//www.youtube.com/embed/\(videoCode)")
-       // myWebView.loadRequest(URLRequest(url: url!))
     }
-    
-  
     
   
     override func viewDidLoad() {
