@@ -30,15 +30,13 @@ class AlbumViewController: UIViewController {
         
     }
     
-  
     override func viewDidLoad() {
         super.viewDidLoad()
         
         updateUI()
         getVideo(videoCode: "fyMhvkC3A84")
         
-        
-}
+    }
     
     func getVideo(videoCode:String) {
         let url = URL(string: "https//www.youtube.com/embed/\(videoCode)")
@@ -47,8 +45,6 @@ class AlbumViewController: UIViewController {
     }
     
   
-    
-    
     override func viewWillDisappear(_ animated: Bool) {
         
         super.viewWillDisappear(animated)

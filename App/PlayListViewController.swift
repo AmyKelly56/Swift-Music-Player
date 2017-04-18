@@ -24,13 +24,8 @@ class PlayListViewController: UIViewController {
     
     var covers: [UIImageView]!
     
-    
- 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-    
         
         covers = [cover1, cover2, cover3, cover4, cover5, cover6, cover7, cover8];
         
@@ -39,9 +34,7 @@ class PlayListViewController: UIViewController {
     }
     
   
-    
-    func updateUI()
-    {
+    func updateUI() {
         
         for i in 0..<covers.count {
             let cover = covers[i]
@@ -85,10 +78,8 @@ class PlayListViewController: UIViewController {
     }
     
     
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
 
     }
-
 }

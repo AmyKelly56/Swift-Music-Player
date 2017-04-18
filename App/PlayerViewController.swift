@@ -63,7 +63,6 @@ class PlayerViewController: UIViewController {
         
     }
     
-    
     @IBAction func playAction(_ sender: AnyObject) {
         if !audioPlayer.isPlaying {
             audioPlayer.play()
@@ -89,7 +88,8 @@ class PlayerViewController: UIViewController {
         
         if time > audioPlayer.duration {
             stopAction(self)
-        }else {
+        }
+        else {
             audioPlayer.currentTime = time
         }
         
@@ -101,7 +101,8 @@ class PlayerViewController: UIViewController {
         
         if time < 0 {
             stopAction(self)
-        }else {
+        }
+        else {
             audioPlayer.currentTime = time
         }
     }
@@ -111,7 +112,8 @@ class PlayerViewController: UIViewController {
         if trackId != 0 || trackId > 0 {
             if shuffle.isOn {
                 trackId = Int(arc4random_uniform(UInt32(library.count)))
-            }else {
+            }
+            else {
                 trackId -= 1
             }
             
@@ -137,15 +139,12 @@ class PlayerViewController: UIViewController {
                     Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(PlayerViewController.updateProgressView), userInfo: nil, repeats: true)
                     progressView.setProgress(Float(audioPlayer.currentTime/audioPlayer.duration), animated: false)
                     
-                } catch let error as NSError {
+                }
+                catch let error as NSError {
                     print(error.localizedDescription)
                 }
             }
         }
-        
-    
-        
-    
     }
     
     @IBAction func nextAction(_ sender: AnyObject) {
@@ -153,7 +152,8 @@ class PlayerViewController: UIViewController {
         if trackId == 0 || trackId < 19 {
             if shuffle.isOn {
                 trackId = Int(arc4random_uniform(UInt32(library.count)))
-            }else {
+            }
+            else {
                 trackId += 1
             }
             
@@ -184,10 +184,5 @@ class PlayerViewController: UIViewController {
                 }
             }
         }
-       
     }
-    
-    
-    
-    
 }
