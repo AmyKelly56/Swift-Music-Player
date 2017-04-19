@@ -75,8 +75,6 @@ struct ColdplayLibrary {
             "songs" : ["Faith", "Under Control", "Blame", "Love Now", "Slow Acid", "Outside", "It Was You", "Summer", "Overdrive", "Ectascy", "Pray to God", "Open Wide", "Together", "Burnin", "Dollar Signs"]
     
         ]
-    
 
     ]
-    
 }
