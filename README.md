@@ -25,4 +25,24 @@ Where is inherites from the Album class. An example of polymorphism can be seen 
 
 # Screenshots
 
+<img width="371" alt="screen shot 2017-04-19 at 11 09 53" src="https://cloud.githubusercontent.com/assets/20759350/25174899/c33b5f12-24f0-11e7-8d9d-b5a248ca1745.png">
+
+
+<img width="372" alt="screen shot 2017-04-19 at 11 10 42" src="https://cloud.githubusercontent.com/assets/20759350/25174961/e11d191c-24f0-11e7-9b96-9267a5e33dee.png">
+
+
+<img width="374" alt="screen shot 2017-04-19 at 11 11 17" src="https://cloud.githubusercontent.com/assets/20759350/25174982/f0bab8f2-24f0-11e7-9737-7dbb94e245e8.png">
+
+
+<img width="375" alt="screen shot 2017-04-19 at 11 12 42" src="https://cloud.githubusercontent.com/assets/20759350/25175036/25deed28-24f1-11e7-8963-6d5c628d4738.png">
+
+
+<img width="380" alt="screen shot 2017-04-19 at 11 16 36" src="https://cloud.githubusercontent.com/assets/20759350/25175166/b28141ea-24f1-11e7-854b-ba0b0e5dc216.png">
+
+
+<img width="374" alt="screen shot 2017-04-19 at 11 17 52" src="https://cloud.githubusercontent.com/assets/20759350/25175216/dcf9e2a6-24f1-11e7-9ae8-3ef74323a5b4.png">
+
+
+
+
 
