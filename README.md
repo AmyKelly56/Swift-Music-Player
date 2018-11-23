@@ -1,4 +1,4 @@
-# Swift Music Playr
+# Swift Music Player
 
 
 The project is an application based in Swift for iOS devices (iPad, iPod, iPhone). There is two main parts to the application. There is a total of 7 classes. Imported use of libaries UIKit, Foundation, AVFounddation. Multiple contraints added such as Auto Layout which allows the user interface to adapt immediatlet to any size. Making it compatiable with all devices and screen sizes weather this be an iPhone 4, 5, 6, 7, plus models of these devices and all iPad Models. There is multiple screens in all sections of the app.  
